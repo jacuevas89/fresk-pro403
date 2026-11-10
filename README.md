@@ -15,12 +15,12 @@ Fresk es una aplicación Android para registrar alimentos, controlar cantidades 
 - Celular o emulador con Android 8.0 (API 26) o superior.
 - Internet durante la primera sincronización para descargar las dependencias.
 
-**Importante:** Al abrior el proyecto en Android Studio indica que Gradle debe usar Java 21 en `gradle/gradle-daemon-jvm.properties`. Si Java 21 no está instalado, es necesario instalarlo. No selecciones Java 25 ni actualices Gradle o AGP solo por un aviso de Android Studio.
+**Importante:** Al abrir el proyecto en Android Studio indica que Gradle debe usar Java 21 en `gradle/gradle-daemon-jvm.properties`. Si Java 21 no está instalado, es necesario instalarlo. No selecciones Java 25 ni actualices Gradle o AGP solo por un aviso de Android Studio.
 
 ## Cómo abrir y ejecutar
 
 1. Descarga o clona este repositorio desde GitHub.
-2. En Android Studio, selecciona **Open** y abre la carpeta `Fresk` que contiene `settings.gradle.kts`.
+2. En Android Studio, selecciona **Open** y abre la carpeta del proyecto (la que contiene `settings.gradle.kts`).
 3. Espera a que termine **Gradle Sync**. Si se solicita el JDK, configura **JDK 21** en **Settings -> Build, Execution, Deployment -> Build Tools -> Gradle -> Gradle JDK**.
 4. Instala **Android SDK 35** si Android Studio lo solicita.
 5. Selecciona **app** y un celular físico conectado con depuración USB o un emulador.
